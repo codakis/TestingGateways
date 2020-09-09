@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace CatalogAPI
+namespace OrdersAPI
 {
     public class Startup
     {
@@ -36,7 +36,7 @@ namespace CatalogAPI
                 app.UseDeveloperExceptionPage();
             }
 
-           // app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

@@ -4,23 +4,23 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:7001"
+      "applicationUrl": "http://localhost:7000"
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "currencies",
+      "launchUrl": "",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "CatalogAPI": {
+    "GatewayAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "currencies",
-      "applicationUrl": "http://localhost:7001",
+      "launchUrl": "",
+      "applicationUrl": "http://localhost:7000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
